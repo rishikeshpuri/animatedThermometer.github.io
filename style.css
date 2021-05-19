@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    background: #2a364f;
+    /* font-family: "Redressed", cursive; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* overflow: hidden;
+    margin: 0;
+    padding: 20px; */
+}
+.outerDiv{
+    /* width: 100vw;
+    height: 100vh; */
+    /* background: #2a364f; */
+    /* display: grid; */
+    /* place-items: center; */
+}
+
+.innerDiv{
+    /* width: 80vw;
+    height: 70vh; */
+    /* background: #2a364f; */
+    /* display: grid; */
+    /* place-items: center; */
+}
+.main-heading{
+    padding: 30px;
+    color: #fff;
+    text-shadow: 0 1px 8px rgba(255, 255, 255, 0.5);
+    font-size: 200px;
+}
